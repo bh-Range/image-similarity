@@ -5,7 +5,7 @@ import numpy as np
 
 from tensorflow.python.keras.applications.mobilenet import MobileNet, preprocess_input
 from tensorflow.python.keras.preprocessing import image as process_image
-from tensorflow.python.keras.utils import Sequence
+from tensorflow.keras.utils import Sequence
 from tensorflow.python.keras.layers import GlobalAveragePooling2D
 from tensorflow.python.keras import Model
 
